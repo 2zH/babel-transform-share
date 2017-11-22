@@ -1,0 +1,20 @@
+{
+  "name": "babel-transform-share",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transform": "node -r @std/esm index.mjs",
+    "clean": "rm ./output.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@std/esm": "^0.16.0",
+    "babel-core": "^6.26.0",
+    "babel-generator": "^6.26.0",
+    "babylon": "^6.18.0",
+    "ramda": "^0.25.0"
+  }
+}
